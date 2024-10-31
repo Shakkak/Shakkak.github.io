@@ -12,7 +12,6 @@ about:
   template: trestles
   image-width: 70%
   links:
-
     - icon: envelope
       text: E-mail
       href: mailto:Shakibhz@outlook.com
@@ -24,12 +23,12 @@ about:
       href: https://www.linkedin.com/in/m-shakib-hosseinzadeh
       target: _blank
 
-    page-size: 0 #set as 0 will remove the page setting
-    fields: [image, date, title, author, description]
-    max-description-length: 75
-    sort: 
-      - "date desc"
-      - "title asc"
+page-size: 0 #set as 0 will remove the page setting
+fields: [image, date, title, author, description]
+max-description-length: 75
+sort: 
+  - "date desc"
+  - "title asc"
 ---
 
 
