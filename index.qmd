@@ -23,9 +23,6 @@ about:
       text: LinkedIn
       href: https://www.linkedin.com/in/m-shakib-hosseinzadeh
       target: _blank
-    contents: 
-      - posts
-      - posts/post-links.yml
     type: grid
     max-items: 3
 #    image-height: 150px
