@@ -23,9 +23,7 @@ about:
       text: LinkedIn
       href: https://www.linkedin.com/in/m-shakib-hosseinzadeh
       target: _blank
-    type: grid
-    max-items: 3
-#    image-height: 150px
+
     page-size: 0 #set as 0 will remove the page setting
     fields: [image, date, title, author, description]
     max-description-length: 75
