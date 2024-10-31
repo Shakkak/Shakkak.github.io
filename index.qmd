@@ -15,20 +15,29 @@ about:
     - icon: envelope
       text: E-mail
       href: mailto:Shakibhz@outlook.com
-#    - icon: github
-#      text: Github
-#      href: https://github.com/Shakkak   
+    - icon: github
+      text: Github
+      href: https://github.com/Shakkak   
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/m-shakib-hosseinzadeh
       target: _blank
 
-page-size: 0 #set as 0 will remove the page setting
-fields: [image, date, title, author, description]
-max-description-length: 75
-sort: 
-  - "date desc"
-  - "title asc"
+
+listing:
+  - id: recent-posts
+    contents: 
+      - posts
+      - posts/post-links.yml
+    type: grid
+    max-items: 3
+#    image-height: 150px
+    page-size: 0 #set as 0 will remove the page setting
+    fields: [image, date, title, author, description]
+    max-description-length: 75
+    sort: 
+      - "date desc"
+      - "title asc"
 ---
 
 
